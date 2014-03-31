@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 
 group :test do
 	gem 'sqlite3'
+	gem 'rspec-rails'
 end
 
 group :development do
 	gem 'sqlite3'
+	gem 'rspec-rails'
 end
 
 group :production do
