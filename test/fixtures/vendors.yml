@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  tier_no: 
+  line_of_business: MyString
+  wla_contact: MyString
+  contact_first: MyString
+  contact_last: MyString
+  email: MyString
+  date_std: 2014-03-26
+  date_invite: 2014-03-26
+  phone: MyString
+  address: MyString
+
+two:
+  name: MyString
+  tier_no: 
+  line_of_business: MyString
+  wla_contact: MyString
+  contact_first: MyString
+  contact_last: MyString
+  email: MyString
+  date_std: 2014-03-26
+  date_invite: 2014-03-26
+  phone: MyString
+  address: MyString

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vendor: MyString
+  level: 
+  printed: false
+  sponsor_banner: 2014-03-26
+  comments: MyText
+
+two:
+  vendor: MyString
+  level: 
+  printed: false
+  sponsor_banner: 2014-03-26
+  comments: MyText

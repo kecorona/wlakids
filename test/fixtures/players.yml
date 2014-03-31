@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  foursome: 
+  first_name: 
+  last_name: 
+  company: MyString
+  shirt_size: 
+  rental_clubs: MyString
+  comments: MyText
+  dinner_attendance: false
+
+two:
+  foursome: 
+  first_name: 
+  last_name: 
+  company: MyString
+  shirt_size: 
+  rental_clubs: MyString
+  comments: MyText
+  dinner_attendance: false

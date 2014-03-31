@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mail_to: MyString
+  mail_from: MyString
+  subject: MyString
+  attachment: MyString
+
+two:
+  mail_to: MyString
+  mail_from: MyString
+  subject: MyString
+  attachment: MyString

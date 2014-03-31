@@ -1,0 +1,41 @@
+<%= render "member details" %>
+<div class="panel member-details">
+  <h3>Member Details</h3>
+  <div class="panel_contents">
+  	<div id="attributes_table_member" class="attributes_table">
+  		<table cellspacing="0" cellpadding="0" border="0">
+  			<tbody>
+  				<tr>
+  					<th>Member Name</th>
+  					<td><%= member.name.blank? ? raw('<span class="empty"></span>') : member.name %></td>
+  				</tr>
+  				<tr>
+  					<th>Business Line</th>
+  					<td><%= member.business.blank? ? raw('<span class="empty"></span>') : member.business_line %></td>
+  				</tr>
+  				<tr>
+  					<th>Phone Number</th>
+  					<td><%= member.phone.blank? ? raw('<span class="empty"></span>') : member.phone %></td>
+  				</tr>
+  				<tr>
+  					<th>Location</th>
+  					<td><%= member.location.blank? ? raw('<span class="empty"></span>') : member.location %></td>
+  				</tr>
+  				<tr>
+  					<th>Email Address</th>
+  					<td><%= member.email.blank? ? raw('<span class="empty"></span>') : member.email %></td>
+  				</tr>
+  				<tr>
+  					<th>Immediate Manager</th>
+  					<td><%= member.manager.blank? ? raw('<span class="empty"></span>') : member.manager %></td>
+  				</tr>
+  				<tr>
+  					<th>New Member?</th>
+  					<td><%= member.new_member.blank? ? raw('<span class="empty"></span>') : member.new_member %></td>
+  				</tr>
+  			</tbody>
+  		</table>
+  	</div>
+  </div>
+</div>
+<% end %>

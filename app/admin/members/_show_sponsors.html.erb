@@ -1,0 +1,22 @@
+<%= render "associated-ponsors" %>
+<div class="panel member-sponsors">
+	<h3>Associated Sponsors</h3>
+	<div class="panel_contents">
+		<div id="table_sponsor" class="attributes_table">
+			<table cellspacing="0" cellpadding="0" border="0">
+				<tbody>
+					<tr>
+						<th>Sponsor Name</th>
+						<td><%= sponsor.id.blank? ? raw('span class="empty"></span>') : sponsor.id %></td>
+						<th>Level</th>
+						<td><%= sponsor.level.blank? ? raw('span class="empty"></span>') : sponsor.level %></td>
+						<th>Contact</th>
+						<td><%= sponsor.contact.full_name.blank? ? raw('span class="empty"></span>') : sponsor.contact.full_name %></td>
+						<th>Email Address</th>
+						<td><%= sponsor.email.blank? ? raw('span class="empty"></span>') : sponsor.email %></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

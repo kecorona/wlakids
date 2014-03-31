@@ -1,0 +1,15 @@
+<%= form_tag(notify_member_member_path(@member), :id => 'notify_member_form',
+	:style => 'display:none') do %>
+	<div class="field">
+		<%= label_tag :name, "Your name" %><br />
+		<%= text_field_tag :name %>
+	</div>
+	<div class='field'>
+		<%= label_tag :email, "Member's email" %><br />
+		<%= text_field_tag :email %>
+	</div>
+	<div class="actions">
+		<%= submit_tag 'Send' %> or
+		<%= link_to 'Cancel', '#', onclick: "$('#notify_member_form').slideUp()" %>
+	</div>
+<% end %>
